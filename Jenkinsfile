@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps {
-                python dataviz.py
+                sh 'python dataviz.py'
             }
         }
     }
